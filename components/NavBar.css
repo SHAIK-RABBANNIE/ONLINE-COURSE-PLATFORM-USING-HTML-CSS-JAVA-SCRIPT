@@ -1,0 +1,47 @@
+/* NavBar.css */
+
+.AppBar {
+    background-color: #1976d2; /* Material UI primary color */
+  }
+  
+  .Toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .MenuItem {
+    font-size: 16px;
+    padding: 10px 20px;
+    color: white; /* Change this based on your theme */
+  }
+  
+  .MenuItem:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Hover effect */
+  }
+  
+  .Button {
+    font-size: 16px;
+    color: white; /* Change this based on your theme */
+    text-transform: uppercase; /* Uppercase letters for buttons */
+    padding: 10px 20px; /* Add padding for buttons */
+  }
+  
+  .Avatar {
+    background-color: #fff; /* Avatar background color */
+    color: #1976d2; /* Avatar text color */
+    width: 40px; /* Avatar size */
+    height: 40px; /* Avatar size */
+  }
+  
+  .Tooltip {
+    font-size: 14px; /* Font size for tooltip */
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 600px) {
+    .Button {
+      font-size: 14px; /* Smaller font size for mobile */
+    }
+  }
+  

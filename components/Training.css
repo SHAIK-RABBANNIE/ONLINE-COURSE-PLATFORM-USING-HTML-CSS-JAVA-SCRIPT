@@ -1,0 +1,34 @@
+.training-container {
+    text-align: center;
+    padding: 20px;
+}
+.h2
+{
+    margin-top: 30px;
+}
+.video-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Uniform columns */
+    gap: 20px; /* Space between thumbnails */
+    justify-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.video-item {
+    width: 250px; /* Set a consistent width */
+    height: 140px; /* Set height to maintain aspect ratio */
+    overflow: hidden;
+}
+
+.video-thumbnail {
+    width: 100%; /* Thumbnail fills the item container */
+    height: 100%;
+    object-fit: cover; /* Ensures thumbnails are cropped without distortion */
+    border-radius: 8px; /* Optional rounded corners */
+    transition: transform 0.2s;
+}
+
+.video-thumbnail:hover {
+    transform: scale(1.05); /* Hover zoom effect */
+}

@@ -1,0 +1,125 @@
+.certificate {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+    border: 2px solid #ccc;
+    background-color: #f9f9f9;
+    font-family: 'Georgia', serif;
+    color: #333;
+  }
+  
+  .certificate-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+  }
+  
+  .university-logo {
+    width: 80px;
+    margin-right: 20px;
+  }
+  
+  .university-text h2 {
+    font-size: 1.8em;
+    margin: 0;
+  }
+  
+  .tagline {
+    font-size: 0.9em;
+    color: #a00;
+  }
+  
+  .certificate-body {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .date, .completion-text, .course-description {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .recipient-name {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .course-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .right-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .verified-badge {
+    background: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+  }
+  
+  .verified-badge p {
+    margin: 5px 0;
+  }
+  
+  .distinction {
+    font-weight: bold;
+    color: #0073e6;
+  }
+  
+  .coursera-seal {
+    border-top: 1px solid #999;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+  
+  .signature-section {
+    text-align: right;
+    font-size: 0.9em;
+    color: #333;
+  }
+  
+  .verification-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #0073e6;
+    text-decoration: underline;
+  }
+  
+  .footer-note {
+    text-align: center;
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+.download-button {
+    margin-top: 20px; /* Space above the button */
+    padding: 10px 20px;
+    font-size: 16px;
+    position: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .download-button:hover {
+    background-color: #0056b3;
+  }

@@ -1,0 +1,70 @@
+/* Main container for the templates */
+.template-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Title of the section */
+  .template-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Grid for displaying templates */
+  .template-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Each template item */
+  .template-item {
+    display: flex; /* Flexbox to align image and description side by side */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    align-self: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .template-item:hover {
+    transform: scale(1.05); /* Hover effect */
+  }
+  
+  /* Image inside each template item */
+  .template-image {
+    width: 200px; /* Fixed size for the images */
+    height: 200px;
+    object-fit: cover;
+    border-radius: 7px;
+  }
+  
+  /* Container for text description */
+  .template-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+  }
+  
+  /* Description text */
+  .template-description {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+    text-align: left;
+  }
+  
+  /* If index is even, image comes left and description comes right */
+  .template-item.left-right {
+    flex-direction: column;
+  }
+  
+  /* If index is odd, image comes right and description comes left */
+  .template-item.right-left {
+    flex-direction: row-reverse;
+  }
+  
